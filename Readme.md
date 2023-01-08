@@ -4,7 +4,7 @@ See full documentation and requirements at https://confluence.elearning.sumdu.ed
 
 ## Prerequisites
 
-Project is written on Java 16 (17 work to). Project requires maven (bundled with Intelj Idea or standalone), PostgreSQL
+Project is written on Java 16 (17 work to,newer versions generates error). Project requires maven (bundled with Intelj Idea or standalone), PostgreSQL
 13+, GIT
 
 ## Installation

@@ -3,7 +3,8 @@ Feature: Login can be performed via input of email and password on elephant land
   Scenario: check password encapsulation
 
     Given open elephant login page "http://localhost:7000/"
-    And type into password "N.rwKjF82.tmQ7e"
+    And type into password "password"
+    And press button "/html/body/header/div/a[1]"
     When press button with eye symbol on login page
     Then password changed to readable text
 

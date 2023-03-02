@@ -35,5 +35,9 @@ public class e2eStepdefs implements En {
             String type=pass.getAttribute("type");
             assertEquals(type,"text");//"or password if encapsulated"
         });
+        And("^press button \"([^\"]*)\"$", (String arg0) -> {
+            WebElement ref= $(byXpath(arg0));
+            ref.click();
+        });
     }
 }
